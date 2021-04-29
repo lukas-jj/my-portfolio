@@ -22,12 +22,15 @@ function Skills() {
             <div class="hero-body">
                 <div  class="container">
                     <h1 data-aos="fade-right" className="title is-1 has-text-centered">Skills</h1>
-                    <div className="columns" >
+                    <div className="content">
+                    <div className="columns" data-aos="fade-right" >
                         <div className='column'>
                             <div className="card">
                                 <div className="card-content">
+                                    <div className="imageWrapper">
                              <img className="image is-128x128" src={git}/> 
-                             <h2 className="subtitle is-5">Git</h2>
+                             </div>
+                             <div className="subtitle is-5">Git</div>
                             </div>
                             </div>
                         </div>
@@ -35,8 +38,9 @@ function Skills() {
                         <div className='column'>
                             <div className="card">
                                 <div className="card-content">
+                                <div className="imageWrapper">
                              <img className="image is-128x128" src={html5}/> 
-                             <h2 className="subtitle is-5">HTML5</h2>
+                             </div>                             <div className="subtitle is-5">HTML5</div>
                             </div>
                             </div>
                         </div>
@@ -45,8 +49,9 @@ function Skills() {
                         <div className='column'>
                             <div className="card">
                                 <div className="card-content">
+                                <div className="imageWrapper">
                              <img className="image is-128x128" src={css}/> 
-                             <h2 className="subtitle is-5">CSS3</h2>
+                             </div>                             <div className="subtitle is-5">CSS3</div>
                             </div>
                             </div>
                         </div>
@@ -54,17 +59,20 @@ function Skills() {
                         <div className='column'>
                             <div className="card">
                                 <div className="card-content">
+                                <div className="imageWrapper">
                              <img className="image is-128x128" src={react}/> 
-                             <h2 className="subtitle is-5">React</h2>
+                             </div>                              <div className="subtitle is-5">React</div>
                             </div>
                             </div>
                         </div>
-                        
+                        </div>
+                        <div className="columns" data-aos="fade-left">
                         <div className='column'>
                             <div className="card">
                                 <div className="card-content">
+                                <div className="imageWrapper">
                              <img className="image is-128x128" src={express}/> 
-                             <h2 className="subtitle is-5">Express</h2>
+                             </div>                              <div className="subtitle is-5">Express</div>
                             </div>
                             </div>
                         </div>
@@ -72,8 +80,9 @@ function Skills() {
                         <div className='column'>
                             <div className="card">
                                 <div className="card-content">
+                                <div className="imageWrapper">
                              <img className="image is-128x128" src={node}/> 
-                             <h2 className="subtitle is-5">NodeJs</h2>
+                             </div>                              <div className="subtitle is-5">NodeJs</div>
                             </div>
                             </div>        
                         </div>
@@ -81,8 +90,9 @@ function Skills() {
                         <div className='column'>
                             <div className="card">
                                 <div className="card-content">
+                                <div className="imageWrapper">
                              <img className="image is-128x128" src={javascript}/> 
-                             <h2 className="subtitle is-5">Javascript</h2>
+                             </div>                              <div className="subtitle is-5">Javascript</div>
                             </div>
                             </div>
                         </div> 
@@ -90,8 +100,11 @@ function Skills() {
                         <div className='column'>
                             <div className="card">
                                 <div className="card-content">
+                                <div className="imageWrapper">
                              <img className="image is-128x128" src={mysql}/> 
-                             <h2 className="subtitle is-5">MySQL</h2>
+                             </div>         
+                                                  <div className="subtitle is-5">MySQL</div>
+                            </div>
                             </div>
                             </div>
                         </div> 

@@ -1,5 +1,7 @@
-#skills {
-        white-space: nowrap;
-        flex-direction: row;
-        flex-wrap: wrap;
+
+
+#skills .imageWrapper {
+    height: 150px;
+    display: flex;
+    justify-content: center;
 }

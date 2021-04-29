@@ -17,14 +17,14 @@ function AboutMe() {
                         <div className='column is-narrow'>
                             <div className="card" data-aos="fade-left">
                                 <div className="card-content is-flex is-justify-content-center is-narrow "  >
-                             <img className="image is-128x128" src={lukas}/> 
+                             <img className="image" id="about-me-image" src={lukas}/> 
                             </div>
                             </div>
                         </div>
 
                         <div className='column is-half'>
                             <div data-aos="flip-right" className="card">
-                                <p   class="content is-medium p-5">
+                                <p id="about-me-p"  class="content is-large p-6">
                 I'm a full stack web developer looking to work with people who value creativity, fun and giving back to the community. I also am a big lover of music, and am currently studying theory in my free time. Feel free to hit me up for a jam!
             </p>
                             </div>
