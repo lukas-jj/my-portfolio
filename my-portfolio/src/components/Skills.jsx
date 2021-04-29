@@ -111,7 +111,7 @@ function Skills() {
                             </div>
                         </div> 
 <div className="columns">
-                        <div className='column is-one-quarter ' data-aos="fade-right">
+                        <div className='column is-one-quarter' data-aos="fade-right">
                             <div className="card">
                                 <div className="card-content">
                                 <div className="imageWrapper">
