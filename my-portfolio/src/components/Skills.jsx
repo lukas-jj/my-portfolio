@@ -10,6 +10,8 @@ import react from '../react.svg'
 import node from '../nodejs.svg'
 import express from '../express.svg'
 import mysql from '../mysql.svg'
+import redux from '../redux.svg'
+
 import '../styles/Skills.css'
 
 
@@ -108,6 +110,19 @@ function Skills() {
                             </div>
                             </div>
                         </div> 
+<div className="columns">
+                        <div className='column is-one-quarter ' data-aos="fade-right">
+                            <div className="card">
+                                <div className="card-content">
+                                <div className="imageWrapper">
+                             <img className="image is-128x128" src={redux}/> 
+                             </div>         
+                                                  <div className="subtitle is-5">Redux</div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+
                         </div>
                 </div>
             </div>
