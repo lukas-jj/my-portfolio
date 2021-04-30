@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.34e2f96f.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.848e958d.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.848e958d.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.3fad86cc.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.c29001bc.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.c29001bc.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.6fad27de.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.6fad27de.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/my-portfolio/static/css/2.7fc9bc2b.chunk.css",
@@ -12,13 +12,14 @@
     "static/js/3.6bfa409c.chunk.js.map": "/my-portfolio/static/js/3.6bfa409c.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/my-portfolio/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.34e2f96f.chunk.css.map": "/my-portfolio/static/css/main.34e2f96f.chunk.css.map",
+    "static/css/main.3fad86cc.chunk.css.map": "/my-portfolio/static/css/main.3fad86cc.chunk.css.map",
     "static/js/2.d92fd5d8.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.d92fd5d8.chunk.js.LICENSE.txt",
     "static/media/css-3.e7a9de36.svg": "/my-portfolio/static/media/css-3.e7a9de36.svg",
     "static/media/express.7e85c513.svg": "/my-portfolio/static/media/express.7e85c513.svg",
     "static/media/git-icon.fd381642.svg": "/my-portfolio/static/media/git-icon.fd381642.svg",
     "static/media/html-5.e7638e36.svg": "/my-portfolio/static/media/html-5.e7638e36.svg",
     "static/media/javascript.fd46ca41.svg": "/my-portfolio/static/media/javascript.fd46ca41.svg",
+    "static/media/logo.64c8046f.jpeg": "/my-portfolio/static/media/logo.64c8046f.jpeg",
     "static/media/lukas-image.11e8a004.jpeg": "/my-portfolio/static/media/lukas-image.11e8a004.jpeg",
     "static/media/mysql.e5a509a5.svg": "/my-portfolio/static/media/mysql.e5a509a5.svg",
     "static/media/nodejs.5a3a9ca2.svg": "/my-portfolio/static/media/nodejs.5a3a9ca2.svg",
@@ -29,7 +30,7 @@
     "static/js/runtime-main.6fad27de.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.d92fd5d8.chunk.js",
-    "static/css/main.34e2f96f.chunk.css",
-    "static/js/main.848e958d.chunk.js"
+    "static/css/main.3fad86cc.chunk.css",
+    "static/js/main.c29001bc.chunk.js"
   ]
 }
