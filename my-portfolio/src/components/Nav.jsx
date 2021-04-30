@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 import {Link} from 'react-scroll'
 import 'aos/dist/aos.css'
 import AOS from 'aos';
-
+import logo from "../logo.jpeg"
 function Nav() {
 
     AOS.init()
@@ -20,12 +20,12 @@ function Nav() {
 
         <nav className='navbar is-fixed-top' role='navigation' aria-label='main navigation'>
             <div className='navbar-brand'>
-                <a href='/' className='navbar-item'>
+                <a href='https://www.youtube.com/watch?v=4P9mmZyGb4s&ab_channel=bluesvalerio' target="__blank"className='navbar-item'>
                     <img
-                        src='https://bulma.io/images/bulma-logo.png'
+                        src={logo}
                         alt='Logo'
-                        width='112'
-                        height='28'
+                        width='50'
+                        height='100'
                     />
                 </a>
 
@@ -47,11 +47,11 @@ function Nav() {
                              Home
       </Link> */}
       <div className="navbar-item">
-      <Link to="about-me" spy={true} smooth={true} offset={-100}>About Me</Link>
+      <Link to="about-me" spy={true} smooth={true}>About Me</Link>
       </div>
 
       <div  className="navbar-item">
-      <Link to="skills" spy={true} smooth={true} offset={-100}>Skills</Link>
+      <Link to="skills" spy={true} smooth={true}>Skills</Link>
       </div>
                     </div>
                 </div>

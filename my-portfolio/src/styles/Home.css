@@ -9,7 +9,9 @@
     animation-duration: 2s; /* don't forget to set a duration! */
 }
 
-
+#home {
+    width:100%;
+}
 
 
 .animate__animated.animate__pulse {

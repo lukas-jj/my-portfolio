@@ -21,7 +21,6 @@ function Skills() {
 
     return (
         <section id="skills"  class="hero is-fullheight">
-            <div class="hero-body">
                 <div  class="container">
                     <h1 data-aos="fade-right" className="title is-1 has-text-centered">Skills</h1>
                     <div className="content">
@@ -125,7 +124,6 @@ function Skills() {
 
                         </div>
                 </div>
-            </div>
         </section>
     )
 }
