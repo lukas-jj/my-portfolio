@@ -1,17 +1,13 @@
+/* 
 
-
-#skills .imageWrapper {
+#projects .imageWrapper {
     height: 150px;
     display: flex;
     justify-content: center;
     min-width: 50px;
-}
+} */
 
-#skills{
-    display:flex;
-}
-
-.links {
+#projects {
     display:flex;
     justify-content: center;
 }

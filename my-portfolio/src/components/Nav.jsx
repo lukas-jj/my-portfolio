@@ -53,6 +53,9 @@ function Nav() {
       <div  className="navbar-item">
       <Link to="skills" spy={true} smooth={true}>Skills</Link>
       </div>
+      <div  className="navbar-item">
+      <Link to="projects" spy={true} smooth={true}>Projects</Link>
+      </div>
                     </div>
                 </div>
             </div>
