@@ -34,7 +34,7 @@ function AboutMe() {
                                     I'm based in Wellington, NZ and am looking to work with people who value creativity, fun and giving back to the community. 
 </p>
 <p id="about-me-p" class="content is-large p-3">
-                                    I have experience in developing full stack apps both alone and in groups using agile methodologies and am continuing to broaden my horizons by learning new languages and frameworks. I also am a big lover of music, and am learning theory in my free time tool. Feel free to contact me about work or simply having a jam! 
+                                    I have experience in developing full stack apps both alone and in groups using agile methodologies and am continuing to broaden my horizons by learning new languages and frameworks. I also am a big lover of music, and am learning theory in my free time. Feel free to contact me about work or simply having a jam! 
                                     </p>
                             
                             </div>
