@@ -16,8 +16,8 @@ function AboutMe() {
                     <h1 data-aos="fade-right" className="title is-1 has-text-centered animate__backInDown">About Me</h1>
                     <div className="columns">
                         <div className="column is-narrow" >
-                            <div className="card" >
-                                <div className="card-content is-flex is-justify-content-center is-align-items-center" data-aos="fade-right"  >
+                            <div className="card" data-aos="fade-right" >
+                                <div className="card-content is-flex is-justify-content-center is-align-items-center"   >
                                     <div className="card-image" >
                                         <img className="image" id="about-me-image" src={lukas} />
 
