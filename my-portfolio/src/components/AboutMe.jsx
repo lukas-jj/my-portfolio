@@ -31,10 +31,10 @@ function AboutMe() {
                             <div className="card-content">
                                 <p id="about-me-p" class="content is-large p-3">
 
-                                    I'm based in Wellington, NZ and am looking to work with people who value creativity, fun and giving back to the community. 
+                                    I'm a web developer based in Wellington, NZ and I'm looking to work with people who value creativity, fun and giving back to the community. 
 </p>
 <p id="about-me-p" class="content is-large p-3">
-                                    I have experience in developing full stack apps both alone and in groups using agile methodologies and am continuing to broaden my horizons by learning new languages and frameworks. I also am a big lover of music, and am learning theory in my free time. Feel free to contact me about work or simply having a jam! 
+                                    I have experience in developing full stack apps both alone and in groups using agile methodologies and am continuing to broaden my horizons by learning new languages and frameworks. Music is also one of my passions, and I'm currently studying theory in my free time. Feel free to contact me about work or simply having a jam! 
                                     </p>
                             
                             </div>
