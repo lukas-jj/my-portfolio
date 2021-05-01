@@ -29,7 +29,7 @@ function AboutMe() {
                             <div className="card-content">
                                 <p id="about-me-p" class="content is-large p-3">
 
-                                    I'm a full stack web developer based in Wellington, Nz and am looking to work with people who value creativity, fun and giving back to the community. I also am a big lover of music, and am currently studying theory in my free time. Feel free to contact me about work or having a jam!
+                                    I'm based in Wellington, NZ and am looking to work with people who value creativity, fun and giving back to the community. I also am a big lover of music, and am currently studying theory in my free time. Feel free to contact me about work or having a jam!
             </p>
                             </div>
                         </div>

@@ -2,128 +2,40 @@ import '../styles/AboutMe.css'
 import 'aos/dist/aos.css'
 import AOS from 'aos';
 import lukas from '../lukas-image.jpeg'
-import git from '../git-icon.svg'
-import css from '../css-3.svg'
-import javascript from '../javascript.svg'
-import html5 from '../html-5.svg'
-import react from '../react.svg'
-import node from '../nodejs.svg'
-import express from '../express.svg'
-import mysql from '../mysql.svg'
-import redux from '../redux.svg'
-
+import Git from '../git-icon.svg'
+import CSS3 from '../css-3.svg'
+import Javascript from '../javascript.svg'
+import HTML5 from '../html-5.svg'
+import React from '../react.svg'
+import Node from '../nodejs.svg'
+import Express from '../express.svg'
+import MySQL from '../mysql.svg'
+import Redux from '../redux.svg'
+import Bulma from '../bulma.png'
 import '../styles/Skills.css'
 
+const images = [{ name: "Git", src: Git }, { name: "CSS3", src: CSS3 }, { name: "Javascript", src: Javascript }, { name: "HTML5", src: HTML5 }, { name: "React", src: React }, { name: "Node", src: Node }, { name: "Express", src: Express }, { name: "MySQL", src: MySQL }, { name: "Redux", src: Redux }, { name: "Bulma", src: Bulma },]
 
 function Skills() {
 
     AOS.init()
 
+
     return (
-        <section id="skills"  class="hero is-fullheight">
-                <div  class="container">
-                    <h1 data-aos="fade-right" className="title is-1 has-text-centered">Skills</h1>
-                    <div className="content">
-                    <div className="columns" data-aos="fade-right" >
-                        <div className='column'>
-                            <div className="card">
-                                <div className="card-content">
-                                    <div className="imageWrapper">
-                             <img className="image is-128x128" src={git}/> 
-                             </div>
-                             <div className="subtitle is-5">Git</div>
-                            </div>
-                            </div>
+        <section id="skills" class="hero is-fullheight">
+            <h1 data-aos="fade-left" className="title is-1 has-text-centered">Skills</h1>
+            <div id="icon-columns" className="columns is-multiline">
+                {images.map(image => <div  data-aos="fade-left"className='column is-one-quarter'>
+                    <div className="card">
+                        <div className="card-content">
+                            <div className="imageWrapper">
+                                <img className="image is-128x128" src={image.src} />
+                            </div>                             <div className="subtitle is-5">{image.name}</div>
                         </div>
-
-                        <div className='column'>
-                            <div className="card">
-                                <div className="card-content">
-                                <div className="imageWrapper">
-                             <img className="image is-128x128" src={html5}/> 
-                             </div>                             <div className="subtitle is-5">HTML5</div>
-                            </div>
-                            </div>
-                        </div>
-
-
-                        <div className='column'>
-                            <div className="card">
-                                <div className="card-content">
-                                <div className="imageWrapper">
-                             <img className="image is-128x128" src={css}/> 
-                             </div>                             <div className="subtitle is-5">CSS3</div>
-                            </div>
-                            </div>
-                        </div>
-
-                        <div className='column'>
-                            <div className="card">
-                                <div className="card-content">
-                                <div className="imageWrapper">
-                             <img className="image is-128x128" src={react}/> 
-                             </div>                              <div className="subtitle is-5">React</div>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                        <div className="columns" data-aos="fade-left">
-                        <div className='column'>
-                            <div className="card">
-                                <div className="card-content">
-                                <div className="imageWrapper">
-                             <img className="image is-128x128" src={express}/> 
-                             </div>                              <div className="subtitle is-5">Express</div>
-                            </div>
-                            </div>
-                        </div>
-
-                        <div className='column'>
-                            <div className="card">
-                                <div className="card-content">
-                                <div className="imageWrapper">
-                             <img className="image is-128x128" src={node}/> 
-                             </div>                              <div className="subtitle is-5">NodeJs</div>
-                            </div>
-                            </div>        
-                        </div>
-
-                        <div className='column'>
-                            <div className="card">
-                                <div className="card-content">
-                                <div className="imageWrapper">
-                             <img className="image is-128x128" src={javascript}/> 
-                             </div>                              <div className="subtitle is-5">Javascript</div>
-                            </div>
-                            </div>
-                        </div> 
-                    
-                        <div className='column'>
-                            <div className="card">
-                                <div className="card-content">
-                                <div className="imageWrapper">
-                             <img className="image is-128x128" src={mysql}/> 
-                             </div>         
-                                                  <div className="subtitle is-5">MySQL</div>
-                            </div>
-                            </div>
-                            </div>
-                        </div> 
-<div className="columns">
-                        <div className='column is-one-quarter' data-aos="fade-right">
-                            <div className="card">
-                                <div className="card-content">
-                                <div className="imageWrapper">
-                             <img className="image is-128x128" src={redux}/> 
-                             </div>         
-                                                  <div className="subtitle is-5">Redux</div>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-
-                        </div>
-                </div>
+                    </div>
+                </div>)
+                }
+            </div>
         </section>
     )
 }
