@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.f9cf6d21.chunk.css",
+    "main.css": "/my-portfolio/static/css/main.c82d3c25.chunk.css",
     "main.js": "/my-portfolio/static/js/main.86ecce20.chunk.js",
     "main.js.map": "/my-portfolio/static/js/main.86ecce20.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.169d35c7.js",
@@ -12,7 +12,7 @@
     "static/js/3.ac5a41fc.chunk.js.map": "/my-portfolio/static/js/3.ac5a41fc.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/my-portfolio/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.f9cf6d21.chunk.css.map": "/my-portfolio/static/css/main.f9cf6d21.chunk.css.map",
+    "static/css/main.c82d3c25.chunk.css.map": "/my-portfolio/static/css/main.c82d3c25.chunk.css.map",
     "static/js/2.6a2b9c90.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.6a2b9c90.chunk.js.LICENSE.txt",
     "static/media/ableton.e33950f8.png": "/my-portfolio/static/media/ableton.e33950f8.png",
     "static/media/css-3.e7a9de36.svg": "/my-portfolio/static/media/css-3.e7a9de36.svg",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.169d35c7.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.6a2b9c90.chunk.js",
-    "static/css/main.f9cf6d21.chunk.css",
+    "static/css/main.c82d3c25.chunk.css",
     "static/js/main.86ecce20.chunk.js"
   ]
 }
