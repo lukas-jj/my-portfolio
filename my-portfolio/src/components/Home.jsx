@@ -10,7 +10,7 @@ function Home() {
     return (
         <section id="home" className="hero is-fullheight is-fullheight-with-navbar">
             <div className="hero-body">
-                <div className="container">Hello! I am
+                <div className="container">Kia ora! I'm
         <h1 className="title is-1" >
                         Lukas Jury
         </h1>

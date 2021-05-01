@@ -20,7 +20,7 @@ function Nav() {
 
         <nav className='navbar is-fixed-top' role='navigation' aria-label='main navigation'>
             <div className='navbar-brand'>
-                <a href='https://www.youtube.com/watch?v=4P9mmZyGb4s&ab_channel=bluesvalerio' target="__blank"className='navbar-item'>
+                <a href='/https://www.youtube.com/watch?v=mvSR8lyLKtY&ab_channel=DanielPadim' className='navbar-item'>
                     <img
                         src={logo}
                         alt='Logo'

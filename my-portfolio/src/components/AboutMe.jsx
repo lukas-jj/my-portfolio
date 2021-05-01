@@ -15,22 +15,28 @@ function AboutMe() {
 
                     <h1 data-aos="fade-right" className="title is-1 has-text-centered animate__backInDown">About Me</h1>
                     <div className="columns">
-                        <div className="column is-narrow">
+                        <div className="column is-narrow" >
                             <div className="card" >
-                                <div className="card-content is-flex is-justify-content-center is-align-items-center"  >
+                                <div className="card-content is-flex is-justify-content-center is-align-items-center" data-aos="fade-right"  >
                                     <div className="card-image" >
                                         <img className="image" id="about-me-image" src={lukas} />
+
+                                        <div className="">I couldn't find a better photo</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="column">
+                        <div className="column" data-aos="fade-left">
                         <div className="card">
                             <div className="card-content">
                                 <p id="about-me-p" class="content is-large p-3">
 
-                                    I'm based in Wellington, NZ and am looking to work with people who value creativity, fun and giving back to the community. I also am a big lover of music, and am currently studying theory in my free time. Feel free to contact me about work or having a jam!
-            </p>
+                                    I'm based in Wellington, NZ and am looking to work with people who value creativity, fun and giving back to the community. 
+</p>
+<p id="about-me-p" class="content is-large p-3">
+                                    I have experience in developing full stack apps both alone and in groups using agile methodologies and am continuing to broaden my horizons by learning new languages and frameworks. I also am a big lover of music, and am learning theory in my free time tool. Feel free to contact me about work or simply having a jam! 
+                                    </p>
+                            
                             </div>
                         </div>
                     </div>

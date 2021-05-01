@@ -12,9 +12,12 @@ import Express from '../express.svg'
 import MySQL from '../mysql.svg'
 import Redux from '../redux.svg'
 import Bulma from '../bulma.png'
+import Ableton from '../ableton.png'
+import ComingSoon from '../comingSoon.png'
+
 import '../styles/Skills.css'
 
-const images = [{ name: "Git", src: Git }, { name: "CSS3", src: CSS3 }, { name: "Javascript", src: Javascript }, { name: "HTML5", src: HTML5 }, { name: "React", src: React }, { name: "Node", src: Node }, { name: "Express", src: Express }, { name: "MySQL", src: MySQL }, { name: "Redux", src: Redux }, { name: "Bulma", src: Bulma },]
+const images = [{ name: "Git", src: Git }, { name: "CSS3", src: CSS3 }, { name: "Javascript", src: Javascript }, { name: "HTML5", src: HTML5 }, { name: "React", src: React }, { name: "Node", src: Node }, { name: "Express", src: Express }, { name: "MySQL", src: MySQL }, { name: "Redux", src: Redux }, { name: "Bulma", src: Bulma }, { name: "Ableton", src: Ableton }, { name: "More soon!", src: ComingSoon }]
 
 function Skills() {
 
@@ -25,7 +28,7 @@ function Skills() {
         <section id="skills" class="hero is-fullheight">
             <h1 data-aos="fade-left" className="title is-1 has-text-centered">Skills</h1>
             <div id="icon-columns" className="columns is-multiline">
-                {images.map(image => <div  data-aos="fade-left"className='column is-one-quarter'>
+                {images.map(image => <div  data-aos="fade-left" className='column is-one-quarter'>
                     <div className="card">
                         <div className="card-content">
                             <div className="imageWrapper">
