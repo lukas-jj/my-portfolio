@@ -21,7 +21,7 @@ function AboutMe() {
                                     <div className="card-image" >
                                         <img className="image" id="about-me-image" src={lukas} />
 
-                                        <div className="">I couldn't find a better photo</div>
+                                        <div className="subtitle is-5 has-text-centered">My flatmate Izzy</div>
                                     </div>
                                 </div>
                             </div>
