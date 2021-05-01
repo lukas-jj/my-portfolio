@@ -4,6 +4,8 @@ import {Link} from 'react-scroll'
 import 'aos/dist/aos.css'
 import AOS from 'aos';
 import logo from "../logo.jpeg"
+import '../styles/Nav.css'
+
 function Nav() {
 
     AOS.init()
@@ -18,16 +20,9 @@ function Nav() {
     return (
         
 
-        <nav className='navbar is-fixed-top' role='navigation' aria-label='main navigation'>
+        <nav id="navbar" className='navbar is-fixed-top' role='navigation' aria-label='main navigation'>
             <div className='navbar-brand'>
-                <a href='/https://www.youtube.com/watch?v=mvSR8lyLKtY&ab_channel=DanielPadim' className='navbar-item'>
-                    <img
-                        src={logo}
-                        alt='Logo'
-                        width='50'
-                        height='100'
-                    />
-                </a>
+              
 
                 <a onClick={toggleBurger} className={`navbar-burger burger ${burgerVisible ? 'is-active' : ''}`}
                     role='button'
