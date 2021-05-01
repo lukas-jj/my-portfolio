@@ -10,11 +10,19 @@
     animation-duration: 2s; /* don't forget to set a duration! */
 }
 
-#home {
-    width:100%;
-}
-
 
 .animate__animated.animate__pulse {
     animation-duration: 1s; /* don't forget to set a duration! */
 }
+
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  .title{
+      color: white;
+  }

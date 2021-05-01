@@ -3,12 +3,13 @@ import React, { useState, useEffect } from 'react'
 import 'aos/dist/aos.css'
 import {Link} from 'react-scroll'
 import AOS from 'aos';
-
+import Background from './Background'
 
 function Home() {
 
     return (
         <section id="home" className="hero is-fullheight is-fullheight-with-navbar">
+            <Background/>
             <div className="hero-body">
                 <div className="container">Kia ora! I'm
         <h1 className="title is-1" >
