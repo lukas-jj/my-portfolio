@@ -20,7 +20,7 @@ function Projects() {
                 <div className="card">
                     
                     <div className="card-content">
-                    <div className="title is-3 has-text-centered">{project.name}</div>
+                    <div className="subtitle is-3 has-text-centered">{project.name}</div>
 
                         <div className="imageWrapper">
                             <img className="image" src={project.src} />
