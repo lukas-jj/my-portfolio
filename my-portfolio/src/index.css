@@ -13,3 +13,11 @@ code {
     monospace;
 }
 
+
+p {
+  color: black
+}
+
+.title {
+  color: white
+}

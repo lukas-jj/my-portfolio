@@ -34,7 +34,7 @@ function AboutMe() {
                                     I'm a web developer based in Wellington, NZ and I'm looking to work with people who value creativity, fun and giving back to the community. 
 </p>
 <p id="about-me-p" class="content is-large p-3">
-                                    I have experience in developing full stack apps both alone and in groups using agile methodologies and am continuing to broaden my horizons by learning new languages and frameworks. Music is also one of my passions, and I'm currently studying theory in my free time. Feel free to contact me about work or simply having a jam! 
+                                    I have experience in developing full stack apps both alone and in groups using agile methodologies and am continuing to broaden my horizons by learning new languages and frameworks. Music is also one of my passions, and I'm currently studying theory in my free time. Feel free to contact me about work or simply having a jam! You may also wonder, why the flying bird? Why not?
                                     </p>
                             
                             </div>

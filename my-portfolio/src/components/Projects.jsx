@@ -25,7 +25,7 @@ function Projects() {
                         <div className="imageWrapper">
                             <img className="image" src={project.src} />
                         </div>                             
-                        <div className="card-content">{project.description}</div>
+                        <div className="card-content"><p>{project.description}</p></div>
                     <div className="links">
                         {project.link &&
 

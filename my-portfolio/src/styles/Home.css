@@ -23,6 +23,18 @@
     min-width: 100%;
     min-height: 100%;
   }
-  .title{
-      color: white;
+
+  #home{
+      display:flex;
+      justify-content: center;
+      align-items: center;
   }
+
+  
+
+ #homeEntry{
+    background-color: hsla(0, 50%, 100%, 0.6);
+    border-radius: 3px;
+    padding: 30px;
+    width:400px;
+    margin-bottom: 30px;}
