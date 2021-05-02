@@ -14,6 +14,7 @@ function Projects() {
 
     return (
         <section id="projects" class="hero is-fullheight">
+            <div className="container">
         <h1 data-aos="fade-left" className="title is-1 has-text-centered">Projects</h1>
         <div  className="columns is-multiline">
             {projects.map(project => <div  data-aos="fade-left" className='column is-half'>
@@ -40,6 +41,7 @@ function Projects() {
             </div>
             </div>)
             }
+        </div>
         </div>
     </section>
     )

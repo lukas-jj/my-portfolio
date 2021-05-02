@@ -26,6 +26,7 @@ function Skills() {
 
     return (
         <section id="skills" class="hero is-fullheight">
+            <div className="container">
             <h1 data-aos="fade-left" className="title is-1 has-text-centered">Skills</h1>
             <div id="icon-columns" className="columns is-multiline">
                 {images.map(image => <div  data-aos="fade-left" className='column is-one-quarter'>
@@ -38,6 +39,7 @@ function Skills() {
                     </div>
                 </div>)
                 }
+            </div>
             </div>
         </section>
     )
