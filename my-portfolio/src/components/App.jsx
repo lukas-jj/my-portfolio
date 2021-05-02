@@ -17,7 +17,7 @@ function App() {
 <Route to="/" component={AboutMe} />
 <Route to="/" component={Skills} />
 <Route to="/" component={Projects} />
-<Router to="/" component={Email} />
+<Route to="/" component={Email} />
      </>
   )
 }

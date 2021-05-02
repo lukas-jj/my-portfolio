@@ -1,85 +1,72 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
+import { useForm } from 'react-hook-form';
+import { init, sendForm } from 'emailjs-com';
+import emailSentGif from '../emailSentGif.gif'
+init('user_zWKPutwDZrOGthmvXaByu');
 
-const FormRequest = () => {
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
 
-  const submitRequest = async (e) => {
-    e.preventDefault();
-    console.log({ email, message });
-    const response = await fetch("/access", { 
-      method: 'POST', 
-      headers: { 
-          'Content-type': 'application/json'
-      }, 
-      body: JSON.stringify({email, message}) 
-  }); 
-    const resData = await response.json(); 
-    if (resData.status === 'success'){
-      alert("Message Sent."); 
-      this.resetForm()
-  }else if(resData.status === 'fail'){
-      alert("Message failed to send.")
+function Email() {
+    const { register, handleSubmit, watch, formState: { errors }  } = useForm();
+// const onSubmit = data => console.log(data);
+
+const [emailSent, setEmailSent] = useState("")
+
+const onSubmit = (data) => {
+    // console.log(data);
+    sendForm('default_service', 'template_mqccxij', '#contact-form')
+      .then(function(response) {
+        console.log('SUCCESS!', response.status, response.text);
+        setEmailSent("Thanks for the email, I'll get back to you as soon as I can.")
+      }, function(error) {
+        console.log('FAILED...', error);
+      });
+
+
   }
-  };
 
+
+  
+const message = watch('message') || "";
+const messageCharsLeft = 1500 - message.length;
   return (
-    <div className="hero">
-      <div className="flex flex-col items-center justify-center bg-gray-200"></div>
-      <div className="w-full max-w-sm m-auto flex flex-col my-32">
-        <form
-          className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 border-gray-200 border"
-          onSubmit={submitRequest}
-        >
-          <h2 className="text-2xl pt-6 pb-10 text-center font-medium text-gray-800">
-            Request for early access
-          </h2>
-          <div className="mb-4">
-            <label
-              className="block text-gray-700 text-sm font-bold mb-2"
-              htmlFor="Email"
-            >
-              Your Email
-            </label>
-            <input
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              type="text"
-              name="email"
-              placeholder="Email Address"
-              onChange={e => setEmail(e.target.value)}
-              value={email}
-              required
-            />
-          </div>
-          <div className="mb-4">
-            <label
-              className="block text-gray-700 text-sm font-bold mb-2"
-              htmlFor="message"
-            >
-              Message For Us
-            </label>
-            <textarea
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              name="message"
-              type="text"
-              placeholder="Tell us your purpose"
-              onChange={e => setMessage(e.target.value)}
-              value={message}
-              required
-            />
-          </div>
-          <div className="flex items-center justify-between">
-            <button
-              className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 mt-6 w-full rounded focus:outline-none focus:shadow-outline"
-              type="submit"
-            >
-              Send A Request
-            </button>
-          </div>
-        </form>
-      </div>
-    </div>
-  );
-};
+    <section className='hero is-fullheight' >
+        <div className="container">
+              <h1 className="title is-3 has-text-centered">Contact</h1>
+            <div className="card">
+                <div className="card-content">
+    {!emailSent ?   <form id='contact-form' onSubmit={handleSubmit(onSubmit)}>
+          <div className="field">
+          <label class="label">Name</label>
+  <input required className="input" maxLength='30' 
+ type='text' name='user_name' placeholder='Name' {...register('user_name', { required: true })} />
+ </div>
 
-export default FormRequest;
+  <div className="field">
+          <label  className="label">Email</label>  <input  required className="input" type='email' name='user_email' placeholder='Email'  {...register('user_email', { required: true })}/>
+  <br/>
+  </div>
+  <div className="field">
+          <label className="label">Message</label>
+  <p className=''>Characters Left: {messageCharsLeft}</p>
+          <div className="control">
+  <textarea required className="textarea" maxLength='1500'
+name='message' placeholder='Message' {...register('message', { required: true })}/>
+</div>
+</div>
+  <br/>
+  <div className="control">
+  <input className="button is-link" type='submit' value='Send' />
+  </div>
+</form>
+:
+<div >
+<h1 className="subtitle">{emailSent}</h1>
+<img className="image is-centered" src={emailSentGif}/>
+</div>
+}</div>
+</div>
+</div>
+    </section>
+  );
+}
+export default Email;
