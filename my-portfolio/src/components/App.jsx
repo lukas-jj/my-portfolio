@@ -16,8 +16,7 @@ function App() {
 <Route path="/" exact component={Home} />
 <Route to="/" component={AboutMe} />
 <Route to="/" component={Skills} />
-<Route to="/" component={Projects} />
-
+x
      </>
   )
 }
