@@ -25,13 +25,11 @@ const onSubmit = (data) => {
 
   }
 
-
-  
 const message = watch('message') || "";
 const messageCharsLeft = 1500 - message.length;
   return (
     <section id="Email" className='hero is-fullheight' >
-        <div className="container">
+        <div data-aos="flip-left" className="container">
               <h1 className="title is-3 has-text-centered">Contact</h1>
             <div className="card">
                 <div  id="EmailContent" className="card-content">
