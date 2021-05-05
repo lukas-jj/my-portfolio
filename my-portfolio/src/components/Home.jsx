@@ -7,7 +7,11 @@ import Background from './Background'
 
 function Home() {
 
+
+    const [loading, setLoading] =useState(true)
+
     return (
+
         <section id="home" className="hero is-fullheight is-fullheight-with-navbar">
             <div className="is-hidden-mobile">
             <Background />

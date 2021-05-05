@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+
 }
 
 code {
@@ -24,4 +25,14 @@ p {
 
 Link:hover {
   color: white
+}
+
+
+@media screen and (min-width: 800px) {
+ body {
+  background-image: url("./leafBackground.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 }
